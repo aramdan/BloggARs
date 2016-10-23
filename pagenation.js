@@ -32,7 +32,7 @@
 		}
 		
 		if (currentPageNo > 2) {
-            if (currentPageNo == 3) { 
+            if (currentPageNo == 2) { 
                 if (currentPage == "page") {
                     html += '<span class="showpage"><a href="' + home_page + '">' + prevText + '</a></span>'
                 } else {
