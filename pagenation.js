@@ -36,8 +36,7 @@
                 } else {
                     html += '<span class="displaypageNum"><a href="#" onclick="redirectlabel(' + prevNumber + ');return false">' + prevText + '</a></span>'
                 }
-            }
-        }
+	    
         for (var jj = pageStart; jj <= pageEnd; jj++) {
             if (currentPageNo == jj) {
                 html += '<span class="pagecurrent">' + jj + '</span>'
